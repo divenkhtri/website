@@ -3,7 +3,7 @@ import Image from "next/image";
 const SixthSection = () => {
   return (
     <div className="py-20 md:space-y-20 items-center justify-center flex flex-col">
-      <div className="text-4xl text-center">80% of Fortune 100 companies use Bird</div>
+      <div className="text-4xl text-center">80% of Fortune 100 companies use DataMind</div>
       <div className="md:flex md:space-x-20  items-center  justify-center">
         <div className="border-b   md:border-r md:border-b-0 md:w-80">
           <Image

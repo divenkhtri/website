@@ -9,7 +9,7 @@ const Footer = () => {
       <section className="hidden md:flex flex-col py-20 justify-between bg-[#3a3b3c]">
         <div className=" text-center  flex justify-between px-80 space-x-20 text-white">
             <div className="">
-            ©2024 Bird, Inc. All rights reserved.
+            ©2024 DataMind, Inc. All rights reserved.
             </div>
             <div>
             <Globe className="h-6 w-6 text-white" />

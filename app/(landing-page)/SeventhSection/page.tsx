@@ -48,7 +48,7 @@ const SeventhSection = () => {
        
 
          
-       <div className="text-3xl pt-8">See Bird in action</div>
+       <div className="text-3xl pt-8">See DataMind in action</div>
 
 <div className="pt-10 flex justify-between">
 

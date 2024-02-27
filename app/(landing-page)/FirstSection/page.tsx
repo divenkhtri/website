@@ -38,7 +38,7 @@ const FirstSection = () => {
           className="text-lg md:text-xl mb-10         
         "
         >
-          Want more efficiency in your organization? Bird is easy for all teams
+          Want more efficiency in your organization? DataMind is easy for all teams
           to use, so you can deliver quality work, faster.
         </p>
         <div className="flex gap-4 justify-center">

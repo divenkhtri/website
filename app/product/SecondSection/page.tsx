@@ -4,9 +4,9 @@ import Image from "next/image";
 const SecondSection = () => {
   return (
     <div className="py-10 space-y-10 items-center justify-center flex flex-col">
-      <div className="text-5xl ">Why Bird ?</div>
+      <div className="text-5xl ">Why DataMind ?</div>
       <div className="text-2xl text-center">
-        According to JDA, Bird improves employee productivity by 45%.
+        According to JDA, DataMind improves employee productivity by 45%.
       </div>
       <div className="md:flex space-y-10 md:space-y-0 md:space-x-20 text-xl">
         <div className="w-80 text-amber-300 border p-8 rounded-lg">

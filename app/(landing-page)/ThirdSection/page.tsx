@@ -28,7 +28,7 @@ const ThirdSection = () => {
       className="flex flex-col space-y-10 ">
         <div className="py-20 bg-[#097969] items-center flex flex-col space-y-10">
           <div className="text-white text-4xl px-10 md:px-0  md:text-6xl md:pb-10 flex items-start justify-start ">
-            Why companies choose Bird
+            Why companies choose DataMind
           </div>
           <div className="md:w-3/4 px-10">
             <div className="flex space-x-10 md:space-x-20 text-white items-center text-2xl justify-center border-b border-t py-10">
@@ -47,7 +47,7 @@ const ThirdSection = () => {
                 Rated best for cross-team collaboration
               </div>
               <div className="md:w-1/2 hidden md:block">
-                Bird is rated as a leader in work management by industry
+                DataMind is rated as a leader in work management by industry
                 experts.
               </div>
             </div>
@@ -58,7 +58,7 @@ const ThirdSection = () => {
               </div>
               <div className="md:w-1/2 hidden md:block">
                 Get tailored support to help your teams easily migrate existing
-                data and adopt Bird.
+                data and adopt DataMind.
               </div>
             </div>
 

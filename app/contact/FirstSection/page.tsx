@@ -118,7 +118,7 @@ export default function FirstSection() {
                     <div className="text-5xl ">Talk with our sales team</div>
 
 <div className="text-xl">
-  Fill out your information and a Bird sales representative will contact
+  Fill out your information and a DataMind sales representative will contact
   you shortly.
 </div>
 

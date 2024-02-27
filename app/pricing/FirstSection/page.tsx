@@ -17,7 +17,7 @@ const FirstSection = () => {
         <div className="text-gray-800 text-xl">PRICING</div>
         <div className="text-5xl">Easily organize your work. Start free.</div>
         <div className="text-2xl text-gray-500">
-          Access Birds features. No credit card required
+          Access DataMinds features. No credit card required
         </div>
       </div>
 

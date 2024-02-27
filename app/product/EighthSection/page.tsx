@@ -35,7 +35,7 @@ const EighthSection = () => {
           </div>
 
           <div className="flex-col space-y-6 flex">
-            <div className="text-xl text-gray-200 pb-10">Bird</div>
+            <div className="text-xl text-gray-200 pb-10">DataMind</div>
 
             <div className="text-gray-200">Home</div>
             <div className="text-gray-200">Product</div>

@@ -11,7 +11,7 @@ const FirstSection = () => {
             The #1 software in product and project management
           </div>
           <div className="text-2xl ">
-            Bird connects company-wide goals to the work needed to achieve
+            DataMind connects company-wide goals to the work needed to achieve
             them—across teams and functions.
           </div>
 
