@@ -5,9 +5,7 @@ import Footer from "./footer/page";
 const ContactPage = () => {
     return ( 
     <div>
-        <Navbar/>
         <FirstSection/>
-        <Footer/>
     </div> 
     );
 }

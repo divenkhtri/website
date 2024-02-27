@@ -10,19 +10,18 @@ import EighthSection from "./EighthSection/page";
 import Footer from "./footer/page";
 
 const ProductPage = () => {
-    return ( 
+  return (
     <div>
-        <Navbar />
-        <FirstSection />
-        <SecondSection />
-        <ThirdSection />
-        <FourthSection />
-        <FifthSection />
-        <SixthSection />
-        <SeventhSection />
-        <EighthSection />
-        <Footer />
-    </div> );
-}
- 
+      <FirstSection />
+      <SecondSection />
+      <ThirdSection />
+      <FourthSection />
+      <FifthSection />
+      <SixthSection />
+      <SeventhSection />
+      <EighthSection />
+    </div>
+  );
+};
+
 export default ProductPage;

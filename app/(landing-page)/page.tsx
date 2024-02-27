@@ -9,22 +9,19 @@ import SixthSection from "./SixthSection/page";
 import ThirdSection from "./ThirdSection/page";
 import Footer from "./footer/page";
 
-
-
 const LandingPage = () => {
-    return ( <div>
-      <Navbar/>
-      <FirstSection/>
-      <SecondSection/>
-      <ThirdSection/>
-      <FourthSection/>
+  return (
+    <div>
+      <FirstSection />
+      <SecondSection />
+      <ThirdSection />
+      <FourthSection />
       <FifthSection />
-      <SixthSection/>
-      <SeventhSection/>
-      <EighthSection/>
-      <Footer/>
-      
-    </div> );
-}
- 
+      <SixthSection />
+      <SeventhSection />
+      <EighthSection />
+    </div>
+  );
+};
+
 export default LandingPage;

@@ -24,7 +24,7 @@ const EighthSection = () => {
           </div>
         </div>
 
-
+    
       </section>
     </div>
   );

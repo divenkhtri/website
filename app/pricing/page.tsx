@@ -8,10 +8,8 @@ import Footer from "./footer/page";
 const PricingPage = () => {
     return ( 
     <div>
-       <Navbar/>
        <FirstSection/>
        <SecondSection/>
-       <Footer/>
 
     </div> );
 }
