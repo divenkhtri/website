@@ -70,7 +70,7 @@ export function NavigationMenuBar() {
                     <Logo />
 
                     <div className="mb-2 mt-4 text-lg font-medium">
-                      Bird Software
+                      DataMind Software
                     </div>
                     <p className="text-sm leading-tight text-muted-foreground">
                       eCommerce for everyone.
@@ -82,10 +82,7 @@ export function NavigationMenuBar() {
                 Learn about the project goals and how to get started.
               </ListItem>
               <ListItem href="/" title="Demo">
-                How to build a store in 60 seconds with Bird.
-              </ListItem>
-              <ListItem href="/" title="Community">
-                Join the community and get help with your project.
+                How to build a store in 60 seconds with DataMind.
               </ListItem>
             </ul>
           </NavigationMenuContent>
