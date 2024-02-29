@@ -31,15 +31,15 @@ const FirstSection = () => {
         
         "
         >
-          The best platform for cross-functional work
+          Partner with data to drive your busienss
         </div>
 
         <p
           className="text-lg md:text-xl mb-10         
         "
         >
-          Want more efficiency in your organization? DataMind is easy for all teams
-          to use, so you can deliver quality work, faster.
+          Want more efficiency in your organization? RGS Data-Platform is easy for all
+          teams to use, so you can deliver quality work, faster.
         </p>
         <div className="flex gap-4 justify-center">
           <button className="bg-[#000] text-white px-6 py-3 rounded-sm ">

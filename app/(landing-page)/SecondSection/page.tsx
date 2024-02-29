@@ -125,7 +125,7 @@ const SecondSection = () => {
         animate={{ y: 0, opacity: 1 }}
         className="text-4xl  md:text-6xl pt-10 py-20 hidden md:block"
       >
-        See how teams use DataMind
+        See how business use RGS Data-Platform
       </motion.div>
       <div></div>
 

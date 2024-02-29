@@ -1,31 +1,24 @@
-'use client'
-
-
+"use client";
 
 import { CheckCircle2 } from "lucide-react";
 import { motion } from "framer-motion";
 import { useRef } from "react";
 import { useInView } from "framer-motion";
-
+import Link from "next/link";
 
 const ThirdSection = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
-
-
-  
   return (
-    <div 
-    >
-      <motion.div 
-      ref = {ref}
-      initial={{ y: 100, opacity: 0 }}  
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 4 }}
-
-      
-      className="flex flex-col space-y-10 ">
+    <div>
+      <motion.div
+        ref={ref}
+        initial={{ y: 100, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 4 }}
+        className="flex flex-col space-y-10 "
+      >
         <div className="py-20 bg-[#097969] items-center flex flex-col space-y-10">
           <div className="text-white text-4xl px-10 md:px-0  md:text-6xl md:pb-10 flex items-start justify-start ">
             Why companies choose DataMind
@@ -61,10 +54,11 @@ const ThirdSection = () => {
                 data and adopt DataMind.
               </div>
             </div>
-
-            <div className="bg-gray-200 p-6 w-52 rounded-lg mt-10 items-center justify-center flex">
-              See how it works
-            </div>
+            <Link href="/platformdemo">
+              <div className="bg-gray-200 p-6 w-52 rounded-lg mt-10 items-center justify-center flex">
+                See how it works
+              </div>
+            </Link>
           </div>
         </div>
       </motion.div>

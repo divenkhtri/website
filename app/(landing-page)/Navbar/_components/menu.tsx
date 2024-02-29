@@ -15,43 +15,6 @@ import {
 } from "@/components/ui/navigation-menu";
 import Logo from "./logo";
 
-const components: { title: string; description: string }[] = [
-  {
-    title: "Frozen",
-
-    description:
-      "Recommended template for most use cases. Includes all the components you need to get started.",
-  },
-  {
-    title: "Swift",
-
-    description:
-      "A template with a minimal set of components. Use this template if you want to build your own components.",
-  },
-  {
-    title: "Tuscany",
-
-    description:
-      "Advanced template with more components and features. Use this template if you want to build a complex UI.",
-  },
-  {
-    title: "Amber",
-
-    description: "Great for building a marketing or landing page.",
-  },
-  {
-    title: "Tide",
-
-    description:
-      "Layered template with a sidebar navigation. Great for building a dashboard or admin panel.",
-  },
-  {
-    title: "Mint",
-
-    description:
-      "Nice template for building a blog or a content-heavy website.",
-  },
-];
 
 export function NavigationMenuBar() {
   return (
@@ -60,7 +23,7 @@ export function NavigationMenuBar() {
         <NavigationMenuItem>
           <NavigationMenuTrigger>Features</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
+            <ul className="grid gap-3 p-6 md:w-[500px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
               <li className="row-span-3">
                 <NavigationMenuLink asChild>
                   <a
@@ -73,16 +36,16 @@ export function NavigationMenuBar() {
                       DataMind Software
                     </div>
                     <p className="text-sm leading-tight text-muted-foreground">
-                      eCommerce for everyone.
+                      Data Insights for everyone.
                     </p>
                   </a>
                 </NavigationMenuLink>
               </li>
               <ListItem href="/product" title="Product">
-                Learn about the project goals and how to get started.
+                Learn about RGS Data-Platform goals and how to get started.
               </ListItem>
-              <ListItem href="/" title="Demo">
-                How to build a store in 60 seconds with DataMind.
+              <ListItem href="/platformdemo" title="Demo">
+                How to generate data insight within few seconds with RGS Data-Platform.
               </ListItem>
             </ul>
           </NavigationMenuContent>
@@ -92,7 +55,7 @@ export function NavigationMenuBar() {
         <NavigationMenuItem>
           <Link href="/" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Enterprise
+              About
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
