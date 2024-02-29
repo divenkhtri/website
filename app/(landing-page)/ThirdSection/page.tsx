@@ -21,37 +21,34 @@ const ThirdSection = () => {
       >
         <div className="py-20 bg-[#097969] items-center flex flex-col space-y-10">
           <div className="text-white text-4xl px-10 md:px-0  md:text-6xl md:pb-10 flex items-start justify-start ">
-            Why companies choose DataMind
+            Why companies choose RGS Data-Platform
           </div>
           <div className="md:w-3/4 px-10">
             <div className="flex space-x-10 md:space-x-20 text-white items-center text-2xl justify-center border-b border-t py-10">
               <CheckCircle2 className="md:h-20 md:w-20 h-10 w-10 " />
               <div className="md:w-80 md:text-3xl text-md w-72">
-                The only platform with goals built in
+                The only platform designed for restaurant analytics
               </div>
               <div className="md:w-1/2 hidden md:block">
-                See related tasks, collaborators and progress to quickly achieve
-                business goals.
+                RGS Data-Platform provides a comprehensive solution for restaurant analytics, integrating data from BigQuery and offering 42 dashboards covering key segments like Customer, Order, Finance, Marketing, Transactions, Payments, and more.
               </div>
             </div>
             <div className="flex space-x-10 md:space-x-20 text-white items-center justify-center  text-2xl border-b border-t py-10">
               <CheckCircle2 className="md:h-20 md:w-20 w-10 h-10 " />
               <div className="md:w-80 md:text-3xl text-md w-72">
-                Rated best for cross-team collaboration
+                Boost cross-team collaboration for better insights
               </div>
               <div className="md:w-1/2 hidden md:block">
-                DataMind is rated as a leader in work management by industry
-                experts.
+                RGS Data-Platform is recognized for its excellence in facilitating cross-team collaboration, allowing different departments to seamlessly work together for more informed decision-making.
               </div>
             </div>
             <div className="flex space-x-10 md:space-x-20 text-white items-center justify-center text-2xl border-b border-t py-10">
               <CheckCircle2 className="md:h-20 md:w-20 h-10 w-10 " />
               <div className="md:w-80 md:text-3xl text-md w-72">
-                Simple adoption, with less downtime
+                Hassle-free adoption with minimal downtime
               </div>
               <div className="md:w-1/2 hidden md:block">
-                Get tailored support to help your teams easily migrate existing
-                data and adopt DataMind.
+                RGS Data-Platform ensures a smooth transition by providing tailored support, helping teams migrate existing data seamlessly and adopt the platform with minimal downtime.
               </div>
             </div>
             <Link href="/platformdemo">

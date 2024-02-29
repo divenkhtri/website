@@ -10,45 +10,43 @@ import { useState } from "react";
 
 const tabs = [
   {
-    name: "Marketing Teams",
-    title: "Deliver impactful marketing strategies",
-    feature1: "Campaign planning",
-    feature2:
-      "Help teams quickly refocus and reprioritize work as goals change.",
-    feature3: "Automate processes for approvals",
+    name: "Customer Data Insights",
+    title: "Unlock customer targeting potential with actionable insights",
+    feature1: "Enhance marketing strategies with Customer Spend Probability Analysis.",
+    feature2: "Identify high-value customers for targeted promotions and personalized offers.",
+    feature3: "Improve customer engagement with targeted campaigns based on past behavior.",
     image: "/images/tab-1.webp",
   },
   {
-    name: "IT Teams",
-    title: "Automate and streamline IT requests",
-    feature1: "Reduce digital friction for better team velocity",
-    feature2: "Track and manage work across teams",
-    feature3: "Automate processes for approvals",
+    name: "Operational Efficiency",
+    title: "Streamline operations for better efficiency",
+    feature1: "Optimize order management with role-based access control.",
+    feature2: "42 dashboards covering 8 segments with 4 charts and 1 table on average.",
+    feature3: "Automated inventory management with threshold alerts and supplier management.",
     image: "/images/tab-2.webp",
   },
-
   {
-    name: "Operations Teams",
-    title: "Drive operational efficiency",
-    feature1: "Track work and see progress in real time",
-    feature2: "Standardize and automate processes",
-    feature3: "Unblock teams to hit revenue goals",
+    name: "Revenue Maximization",
+    title: "Maximize revenue opportunities and prevent losses",
+    feature1: "Menu Recommendation Model for personalized customer suggestions.",
+    feature2: "Customer Propensity Model to identify and incentivize potential buyers.",
+    feature3: "Missed Opportunities Analysis to unlock revenue potential from big spenders.",
     image: "/images/tab-3.webp",
   },
   {
-    name: "Project Management",
-    title: "Manage projects more efficiently",
-    feature1: "Track work and see progress in real time",
-    feature2: "Standardize and automate processes",
-    feature3: "Track resources, goals and progress in one place",
+    name: "Data Security & Validation",
+    title: "Ensure data integrity and security",
+    feature1: "Robust data security measures with a leak-proof pipeline.",
+    feature2: "60+ validation and cleaning rules for thorough data validation.",
+    feature3: "Secure handling of sensitive information with encrypted data.",
     image: "/images/tab-4.webp",
   },
   {
-    name: "Strategic Planning",
-    title: "Align teams to execute winning strategies",
-    feature1: "Track work and see progress in real time",
-    feature2: "Set annual plans to deliver results",
-    feature3: "See real-time insights to stay on track and on budget",
+    name: "AI Integration",
+    title: "AI-driven insights for personalized experiences",
+    feature1: "Menu Recommendation Model suggests top 3 items based on history.",
+    feature2: "Customer Propensity Model tailors marketing strategies for each customer.",
+    feature3: "Leverage AI for strategic decision-making and data-driven growth.",
     image: "/images/tab-1.webp",
   },
 ];
@@ -149,7 +147,7 @@ const SecondSection = () => {
             onClick={() => setActiveTab(tab)}
             style={{ cursor: "pointer" }}
           >
-            <div className="flex text-3xl text-center items-center h-20 w-20 justify-center">
+            <div className="flex text-3xl text-center items-center h-26 w-26 justify-center">
               <div
                 className="
                 "

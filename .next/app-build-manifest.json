@@ -10,11 +10,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(landing-page)/page.js"
-    ],
-    "/platformdemo/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/platformdemo/page.js"
     ]
   }
 }
