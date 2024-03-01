@@ -27,28 +27,57 @@ const ThirdSection = () => {
             <div className="flex space-x-10 md:space-x-20 text-white items-center text-2xl justify-center border-b border-t py-10">
               <CheckCircle2 className="md:h-20 md:w-20 h-10 w-10 " />
               <div className="md:w-80 md:text-3xl text-md w-72">
-                The only platform designed for restaurant analytics
+                Managing vast data volumes efficiently
               </div>
               <div className="md:w-1/2 hidden md:block">
-                RGS Data-Platform provides a comprehensive solution for restaurant analytics, integrating data from BigQuery and offering 42 dashboards covering key segments like Customer, Order, Finance, Marketing, Transactions, Payments, and more.
+                <li>
+                  RGS Data-Platform offers robust data processing capabilities
+                  that efficiently manage and derive insights from vast data
+                  volumes.
+                </li>
+                <br />
+                <li>
+                  Utilizes advanced data standardization and cleaning processes
+                  to handle large-scale data seamlessly. data.
+                </li>
               </div>
             </div>
             <div className="flex space-x-10 md:space-x-20 text-white items-center justify-center  text-2xl border-b border-t py-10">
               <CheckCircle2 className="md:h-20 md:w-20 w-10 h-10 " />
               <div className="md:w-80 md:text-3xl text-md w-72">
-                Boost cross-team collaboration for better insights
+                Struggling with outdated data processing approaches
               </div>
               <div className="md:w-1/2 hidden md:block">
-                RGS Data-Platform is recognized for its excellence in facilitating cross-team collaboration, allowing different departments to seamlessly work together for more informed decision-making.
+                <li>
+                  RGS Data-Platform revolutionizes data processing by adopting
+                  modern, scalable methods that overcome the limitations of
+                  traditional approaches.
+                </li>
+                <br />
+                <li>
+                  Integrates cutting-edge technologies to ensure data processing
+                  is dynamic, responsive, and tailored to the demands of
+                  contemporary data requirements.
+                </li>
               </div>
             </div>
             <div className="flex space-x-10 md:space-x-20 text-white items-center justify-center text-2xl border-b border-t py-10">
               <CheckCircle2 className="md:h-20 md:w-20 h-10 w-10 " />
               <div className="md:w-80 md:text-3xl text-md w-72">
-                Hassle-free adoption with minimal downtime
+                Facing limitations in deriving valuable insights from data
               </div>
               <div className="md:w-1/2 hidden md:block">
-                RGS Data-Platform ensures a smooth transition by providing tailored support, helping teams migrate existing data seamlessly and adopt the platform with minimal downtime.
+                <li>
+                  RGS Data-Platform empowers businesses to unlock the full
+                  potential of their data by providing comprehensive analytics
+                  and visualization tools.
+                </li>
+                <br />
+                <li>
+                  Offers 42 dashboards covering key segments like Customer,
+                  Order, Finance, Marketing, Transactions, Payments, enabling
+                  users to derive meaningful insights effortlessly.
+                </li>
               </div>
             </div>
             <Link href="/platformdemo">
