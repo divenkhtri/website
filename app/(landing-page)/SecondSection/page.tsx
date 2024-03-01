@@ -13,9 +13,10 @@ const tabs = [
     name: "Data Processing",
     title: "Unlock the Full Potential of Your Data",
     feature1: "Efficiently manage and derive insights from vast data volumes.",
-    feature2: "Overcome challenges posed by traditional data processing approaches.",
+    feature2:
+      "Overcome challenges posed by traditional data processing approaches.",
     feature3: "Empower your business with a robust data platform.",
-    image:  "/images/tab-1.webp",
+    image: "/images/tab-1.webp",
   },
   {
     name: "Advanced Analytics",
@@ -23,35 +24,41 @@ const tabs = [
     feature1: "Cleanse and validate data with 120+ rules for precision.",
     feature2: "Enable seamless integration for sophisticated analytics.",
     feature3: "Drive informed decisions with real-time data visualization.",
-    image:  "/images/tab-2.webp",
+    image: "/images/tab-2.webp",
   },
   {
     name: "AI-driven Dashboards",
     title: "Elevate Decision-Making with AI Insights",
-    feature1: "Experience role-based access control for secure data visualization.",
-    feature2: "Leverage AI models for personalized customer interactions and recommendations.",
-    feature3: "Automate decision-making for streamlined operations and increased efficiency.",
-    image:  "/images/tab-3.webp",
+    feature1:
+      "Experience role-based access control for secure data visualization.",
+    feature2:
+      "Leverage AI models for personalized customer interactions and recommendations.",
+    feature3:
+      "Automate decision-making for streamlined operations and increased efficiency.",
+    image: "/images/tab-3.webp",
   },
   {
     name: "Security and Compliance",
     title: "Protect Your Data with Confidence",
-    feature1: "Ensure data security with GCP compliance standards - AICPA-SOC, ISO, CCPA, Hipaa, GDPR.",
-    feature2: "Implement a robust pipeline for data security and prevention of data leakage.",
-    feature3: "Stay confident with a platform that adheres to the highest security standards.",
+    feature1:
+      "Ensure data security with GCP compliance standards - AICPA-SOC, ISO, CCPA, Hipaa, GDPR.",
+    feature2:
+      "Implement a robust pipeline for data security and prevention of data leakage.",
+    feature3:
+      "Stay confident with a platform that adheres to the highest security standards.",
     image: "/images/tab-4.webp",
   },
   {
     name: "AI-Enabled Insights",
     title: "Drive Business Success with AI-driven Strategies",
     feature1: "Optimize inventory and alert systems with AI-driven insights.",
-    feature2: "Enhance customer engagement through targeted marketing campaigns using AI models.",
-    feature3: "Automate SMS discount alerts based on customer behavior and preferences.",
+    feature2:
+      "Enhance customer engagement through targeted marketing campaigns using AI models.",
+    feature3:
+      "Automate SMS discount alerts based on customer behavior and preferences.",
     image: "/images/tab-1.webp",
   },
 ];
-
-
 
 const SecondSection = () => {
   const ref = useRef(null);
@@ -76,8 +83,8 @@ const SecondSection = () => {
           <div className="space-y-10">
             <div className="text-3xl">Security and Compliance</div>
             <div className="flex items-center space-x-8 hover:text-blue-500 text-xl">
-              Build and manage your pipeline with confidence that your data is
-              secure
+              Establish and oversee your data pipeline with the assurance of
+              uncompromising security through Google Cloud Platform Security.
               <ArrowRight className="h-6 w-6 ml-4" />
             </div>
           </div>

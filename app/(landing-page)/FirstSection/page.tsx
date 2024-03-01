@@ -31,7 +31,7 @@ const FirstSection = () => {
         
         "
         >
-          Partner with data to drive your busienss
+          Unlease the power of your own data
         </div>
 
         <p
