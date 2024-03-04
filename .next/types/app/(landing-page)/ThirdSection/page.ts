@@ -1,4 +1,4 @@
-// File: C:\Users\HP\Desktop\office\asana-clone\app\(landing-page)\ThirdSection\page.tsx
+// File: C:\Users\kabir\OneDrive\Desktop\office work\website\app\(landing-page)\ThirdSection\page.tsx
 import * as entry from '../../../../../app/(landing-page)/ThirdSection/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

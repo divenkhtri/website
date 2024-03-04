@@ -83,8 +83,8 @@ const SecondSection = () => {
           <div className="space-y-10">
             <div className="text-3xl">Security and Compliance</div>
             <div className="flex items-center space-x-8 hover:text-blue-500 text-xl">
-              Establish and oversee your data pipeline with the assurance of
-              uncompromising security through Google Cloud Platform Security.
+              Oversee your data with the assurance of security through <br />{" "}
+              Google Cloud Platform Security.
               <ArrowRight className="h-6 w-6 ml-4" />
             </div>
           </div>
@@ -136,7 +136,7 @@ const SecondSection = () => {
       </motion.div>
       <div></div>
 
-      <div className="hidden md:flex  items-center justify-center ">
+      <div className="hidden md:flex   items-center justify-center ">
         {tabs.map((tab) => (
           <div
             key={tab.name}
@@ -148,7 +148,7 @@ const SecondSection = () => {
         w-60
         ${
           activeTab === tab
-            ? "border-b-4 pt-2 border-gray-500 text-gray-800"
+            ? "border-b-4 pt-2  pb-4 border-gray-500 text-gray-800"
             : "text-muted-foreground"
         }
         
