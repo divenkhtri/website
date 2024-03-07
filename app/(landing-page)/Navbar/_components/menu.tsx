@@ -43,20 +43,8 @@ export function NavigationMenuBar() {
               <ListItem href="/product" title="Product">
                 Learn about RGS Data-Platform goals and how to get started.
               </ListItem>
-              <ListItem href="/platformdemo" title="Demo">
-                How to generate data insight within few seconds with RGS Data-Platform.
-              </ListItem>
             </ul>
           </NavigationMenuContent>
-        </NavigationMenuItem>
-
-
-        <NavigationMenuItem>
-          <Link href="/" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              About
-            </NavigationMenuLink>
-          </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
           <Link href="/pricing" legacyBehavior passHref>

@@ -17,9 +17,13 @@ const FirstSection = () => {
   };
 
   return (
-    <div className="m-1 p-2">
+    <div className="m-1 p-2 pb-20">
+      <h1 className="text-center text-3xl font-meduim m-5 p-5">
+        Get started with RGS Data Platform
+      </h1>
+
       <table className="shadow-md rounded max-w-5xl m-auto ">
-        <thead className="sticky block top-0" >
+        <thead className="sticky block top-0">
           <tr className="flex text-left ">
             <th
               scope="row"

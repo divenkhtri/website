@@ -9,7 +9,6 @@ const PricingPage = () => {
     return ( 
     <div>
        <FirstSection/>
-       <SecondSection/>
 
     </div> );
 }

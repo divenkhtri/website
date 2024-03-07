@@ -16,7 +16,7 @@ const tabs = [
     feature2:
       "Overcome challenges posed by traditional data processing approaches.",
     feature3: "Empower your business with a robust data platform.",
-    image: "/images/tab-1.webp",
+    image: "/images/dataflow.svg",
   },
   {
     name: "Advanced Analytics",
@@ -24,11 +24,11 @@ const tabs = [
     feature1: "Cleanse and validate data with 120+ rules for precision.",
     feature2: "Enable seamless integration for sophisticated analytics.",
     feature3: "Drive informed decisions with real-time data visualization.",
-    image: "/images/tab-2.webp",
+    image: "/images/data analysis.svg",
   },
   {
-    name: "AI-driven Dashboards",
-    title: "Elevate Decision-Making with AI Insights",
+    name: "Analytical Dashboard",
+    title: "Elevate Decision-Making with Analytical Dashboard",
     feature1:
       "Experience role-based access control for secure data visualization.",
     feature2:
@@ -39,14 +39,14 @@ const tabs = [
   },
   {
     name: "Security and Compliance",
-    title: "Protect Your Data with Confidence",
+    title: "Protect Your Data with Confidence", 
     feature1:
       "Ensure data security with GCP compliance standards - AICPA-SOC, ISO, CCPA, Hipaa, GDPR.",
     feature2:
       "Implement a robust pipeline for data security and prevention of data leakage.",
     feature3:
       "Stay confident with a platform that adheres to the highest security standards.",
-    image: "/images/tab-4.webp",
+    image: "/images/security.svg",
   },
   {
     name: "AI-Enabled Insights",
@@ -201,7 +201,7 @@ const SecondSection = () => {
             <div
               style={{ height: "525px", width: "700px" }}
               className="
-          bg-gradient-to-r from-gray-400 to-gray-100
+          bg-gradient-to-r from-gray-100 to-gray-200
           items-center justify-center
           rounded-md
           flex

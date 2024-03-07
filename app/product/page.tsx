@@ -17,7 +17,6 @@ const ProductPage = () => {
       <ThirdSection />
       <FourthSection />
       <FifthSection />
-      <SixthSection />
       <SeventhSection />
     </div>
   );
