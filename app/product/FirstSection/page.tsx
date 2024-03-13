@@ -20,17 +20,17 @@ const FirstSection = () => {
 
   return (
     <div>
-    <div className="  md:flex md:space-x-20 py-20 space-y-10 items-center  justify-center  ">
-      <div className=" space-y-10 flex flex-col  md:w-1/3 px-10 ">
-        <div className="text-6xl ">
-          The #1 software in product and project management
-        </div>
-        <div className="text-2xl ">
-          RGA Data Platform connects company-wide goals to the work needed to
-          achieve them—across teams and functions.
-        </div>
+      <div className="  md:flex md:space-x-20 py-10 space-y-10 items-center  justify-center  ">
+        <div className=" space-y-10 flex flex-col  md:w-1/3 px-10 ">
+          <div className="text-6xl ">
+            The #1 software in product and project management
+          </div>
+          <div className="text-2xl ">
+            RGA Data Platform connects company-wide goals to the work needed to
+            achieve them—across teams and functions.
+          </div>
 
-        <div className="flex space-x-4 ">
+          <div className="flex space-x-4 ">
             <Link href="/contact">
               <div className="hover:bg-gray-800 bg-black p-4 text-white text-xl rounded-md cursor-pointer transition duration-300">
                 Get Started
@@ -50,7 +50,7 @@ const FirstSection = () => {
         </div>
 
         <Image
-          src="/images/tab-6.png"
+          src="/images/dashboard/home.png"
           alt="Image"
           width={700}
           height={700}

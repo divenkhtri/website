@@ -22,7 +22,6 @@ export default function RootLayout({
       <body className={font.className}>
         <Navbar />
         {children}
-        <EighthSection />
         <Footer />
       </body>
     </html>
