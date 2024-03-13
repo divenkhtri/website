@@ -23,29 +23,20 @@ const FirstSection = () => {
     "
     >
       <div className="container mx-auto text-center md:w-1/2">
-        <div
-          className="text-6xl flex justify-center md:text-6xl   md:px-20 pb-10
-         
-
-        
-        
-        "
-        >
-          Unlease the power of your own data
+        <div className="text-6xl flex justify-center md:text-5xl md:px-10 pb-10">
+          Industry Specific Business Intelligence and Gen AI Cloud Data Platform
         </div>
 
-        <p
-          className="text-lg md:text-xl mb-10         
-        "
-        >
-          Want more efficiency in your organization? RGS Data-Platform is easy for all
-          teams to use, so you can deliver quality work, faster.
+        <p className="text-lg md:text-xl mb-10">
+          Industry Specific Business Intelligence and Gen AI Cloud Data Platform
         </p>
         <div className="flex gap-4 justify-center">
+        <Link href="/product">
           <button className="bg-[#000] text-white px-6 py-3 rounded-sm ">
             Get Started
           </button>
-          <Link href="/Contact">
+          </Link>
+          <Link href="/contact2">
             <button className="bg-gray-500 text-white px-6 py-3 rounded-sm">
               See how it works
             </button>

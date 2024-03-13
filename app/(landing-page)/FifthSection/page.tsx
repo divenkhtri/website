@@ -99,7 +99,7 @@ const FifthSection = () => {
           </Accordion>
         </div>
 
-        <Image src="/images/tab-6.webp" alt="Image" width={700} height={700} className="p-10 " />
+        <Image src="/images/stream.svg" alt="Image" width={600} height={600} className="p-10 " />
  
     </div>
   );

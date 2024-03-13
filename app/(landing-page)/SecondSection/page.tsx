@@ -1,136 +1,83 @@
 "use client";
 
-import { ArrowRight, CheckCircle2 } from "lucide-react";
+import { CheckCircle2 } from "lucide-react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { useRef } from "react";
-import { useInView } from "framer-motion";
 
 import { useState } from "react";
 
 const tabs = [
   {
     name: "Data Processing",
-    title: "Unlock the Full Potential of Your Data",
-    feature1: "Efficiently manage and derive insights from vast data volumes.",
+    title: "Challenges in Traditional Data Processing",
+    feature1:
+      "Inefficient handling of vast data volumes with traditional processing approaches.",
     feature2:
-      "Overcome challenges posed by traditional data processing approaches.",
-    feature3: "Empower your business with a robust data platform.",
+      "Limited insights derived from conventional data processing methods.",
+    feature3:
+      "Challenges posed by outdated data processing approaches in the modern business landscape.",
     image: "/images/dataflow.svg",
   },
   {
     name: "Advanced Analytics",
-    title: "Transform Raw Data into Actionable Insights",
-    feature1: "Cleanse and validate data with 120+ rules for precision.",
-    feature2: "Enable seamless integration for sophisticated analytics.",
-    feature3: "Drive informed decisions with real-time data visualization.",
+    title: "Transforming Raw Data Challenges",
+    feature1:
+      "Data cleansing and validation challenges hinder precise analytics.",
+    feature2:
+      "Difficulty in seamless integration for sophisticated analytical processes.",
+    feature3:
+      "Barriers to making informed decisions due to raw data challenges.",
     image: "/images/data analysis.svg",
   },
   {
     name: "Analytical Dashboard",
-    title: "Elevate Decision-Making with Analytical Dashboard",
+    title: "Secure Data Visualization and Decision-Making",
     feature1:
-      "Experience role-based access control for secure data visualization.",
+      "Lack of role-based access control compromising data visualization security.",
     feature2:
-      "Leverage AI models for personalized customer interactions and recommendations.",
+      "Challenges in leveraging AI models for personalized customer interactions.",
     feature3:
-      "Automate decision-making for streamlined operations and increased efficiency.",
+      "Manual decision-making leading to inefficiencies in operations and decision processes.",
     image: "/images/tab-3.webp",
   },
   {
     name: "Security and Compliance",
-    title: "Protect Your Data with Confidence", 
+    title: "Ensuring Data Protection and Compliance",
     feature1:
-      "Ensure data security with GCP compliance standards - AICPA-SOC, ISO, CCPA, Hipaa, GDPR.",
+      "Struggling to meet data security standards like AICPA-SOC, ISO, CCPA, Hipaa, GDPR.",
     feature2:
-      "Implement a robust pipeline for data security and prevention of data leakage.",
+      "Inadequate measures to prevent data leakage and ensure robust data security.",
     feature3:
-      "Stay confident with a platform that adheres to the highest security standards.",
+      "Concerns about platform adherence to the highest security standards in the industry.",
     image: "/images/security.svg",
   },
   {
     name: "AI-Enabled Insights",
-    title: "Drive Business Success with AI-driven Strategies",
-    feature1: "Optimize inventory and alert systems with AI-driven insights.",
+    title: "Driving Business Success with AI Strategies",
+    feature1:
+      "Inefficiencies in optimizing inventory and alert systems without AI-driven insights.",
     feature2:
-      "Enhance customer engagement through targeted marketing campaigns using AI models.",
+      "Challenges in enhancing customer engagement through targeted marketing campaigns.",
     feature3:
-      "Automate SMS discount alerts based on customer behavior and preferences.",
+      "Manual processes for SMS discount alerts without automation based on customer behavior and preferences.",
     image: "/images/tab-1.webp",
   },
 ];
 
 const SecondSection = () => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
-
   const [activeTab, setActiveTab] = useState(tabs[0]);
 
   return (
     <div
       ref={ref}
-      className="flex flex-col justify-center items-center md:py-20 p-10"
+      className="flex flex-col justify-center items-center md:py-20 ml-[7rem] mr-[7rem] "
     >
-      <div className="flex justify-center items-center">
-        <div
-          style={{
-            transform: `translateY(${isInView ? 0 : 100}px)`,
-            opacity: isInView ? 1 : 0,
-            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
-          }}
-          className="md:flex md:space-x-20 border-b md:py-10"
-        >
-          <div className="space-y-10">
-            <div className="text-3xl">Security and Compliance</div>
-            <div className="flex items-center space-x-8 hover:text-blue-500 text-xl">
-              Oversee your data with the assurance of security through <br />{" "}
-              Google Cloud Platform Security.
-              <ArrowRight className="h-6 w-6 ml-4" />
-            </div>
-          </div>
-
-          <motion.div
-            initial={{ y: 100, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            className="grid grid-cols-2  md:flex md:space-x-10  items-center   justify-center py-10 "
-          >
-            <Image
-              src="/images/logo/aicpa.png"
-              width={100}
-              height={100}
-              alt="logo"
-            />
-            <Image
-              src="/images/logo/iso-logo.png"
-              width={100}
-              height={100}
-              alt="logo"
-            />
-            <Image
-              src="/images/logo/ccpa.svg"
-              width={150}
-              height={150}
-              alt="logo"
-            />
-            <Image
-              src="/images/logo/hipaa.png"
-              width={100}
-              height={100}
-              alt="logo"
-            />
-            <Image
-              src="/images/logo/gdpr.png"
-              width={100}
-              height={100}
-              alt="logo"
-            />
-          </motion.div>
-        </div>
-      </div>
       <motion.div
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        className="text-4xl  md:text-6xl pt-10 py-20 hidden md:block"
+        className="text-4xl  md:text-5xl py-20 hidden md:block"
       >
         See how business use RGS Data-Platform
       </motion.div>
@@ -169,11 +116,11 @@ const SecondSection = () => {
       </div>
 
       {/* Display content based on the active tab */}
-      <div className="pt-10 hidden md:block">
+      <div className="pt-10 ml-[7rem] mr-[7rem] hidden md:block">
         {activeTab && (
           <div className="flex   justify-center">
             <div
-              style={{ height: "525px", width: "700px" }}
+              style={{ height: "525px", width: "525px" }}
               className="flex-col bg-gray-200 p-10 rounded-md"
             >
               <p className="text-4xl py-10 border-b underline ">

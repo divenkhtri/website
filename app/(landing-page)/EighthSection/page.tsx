@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const EighthSection = () => {
   return (
@@ -17,9 +18,11 @@ const EighthSection = () => {
           <div className="text-6xl flex justify-center md:text-6xl text-white md:px-20 pb-20 w-2/3">
             Empower Your Business with Data-Driven Excellence
           </div>
-          <div className="text-xl bg-white p-6 rounded-lg w-40 items-center justify-center flex">
-            Get started
-          </div>
+          <Link href="/contact">
+            <div className="text-xl bg-white p-6 rounded-lg w-40 items-center justify-center flex">
+              Get started
+            </div>
+          </Link>
         </div>
       </section>
     </div>

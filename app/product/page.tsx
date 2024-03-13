@@ -1,8 +1,8 @@
 import FirstSection from "./FirstSection/page";
 import Navbar from "./Navbar/navbar";
 import SecondSection from "@/app/product/SecondSection/page";
-import FourthSection from "./FourthSection/page";
-import FifthSection from "./FifthSection/page";
+import FourthSectionData from "./FourthSectionData/page";
+import FifthSectionData from "./FifthSectionData/page";
 import SixthSection from "./SixthSection/page";
 import SeventhSection from "./SeventhSection/page";
 import EighthSection from "./EighthSection/page";
@@ -15,8 +15,8 @@ const ProductPage = () => {
       <FirstSection />
       <SecondSection />
       <ThirdSection />
-      <FourthSection />
-      <FifthSection />
+      <FourthSectionData />
+      <FifthSectionData />
       <SeventhSection />
     </div>
   );

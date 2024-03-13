@@ -19,7 +19,7 @@ export function NavigationMenuBar() {
   return (
     <NavigationMenu>
       <NavigationMenuList className="hidden md:flex md:space-x-4">
-        <NavigationMenuItem>
+        {/* <NavigationMenuItem>
           <NavigationMenuTrigger>Features</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid gap-3 p-6 md:w-[500px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
@@ -45,12 +45,12 @@ export function NavigationMenuBar() {
               </ListItem>
             </ul>
           </NavigationMenuContent>
-        </NavigationMenuItem>
+        </NavigationMenuItem> */}
         <NavigationMenuItem>
-          <Link href="/pricing" legacyBehavior passHref>
+          <Link href="/product" legacyBehavior passHref>
             <div>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                Pricing
+              Features
               </NavigationMenuLink>
             </div>
           </Link>

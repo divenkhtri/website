@@ -32,7 +32,7 @@ const ActionButtons = () => {
                   <Link href="/" className="">
                     Features
                   </Link>
-                  <Link href="/contact" className="">
+                  <Link href="/contact2" className="">
                     Contact
                   </Link>
                   <Link href="/" className="">
@@ -58,10 +58,10 @@ const ActionButtons = () => {
           </div>
         </div>
 
-        <Link href="/contact" className="">
+        <Link href="/contact2" className="">
           Contact Sales
         </Link>
-        <Link href="/contact" className="">
+        <Link href="/contact2" className="">
           <Button className="bg-[#000] text-md rounded-sm ">Get Started</Button>
         </Link>
         <div></div>

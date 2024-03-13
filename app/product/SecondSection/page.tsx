@@ -7,8 +7,8 @@ const SecondSection = () => {
       <div className="text-2xl text-center">
         Experience the power of DataMind with these standout features.
       </div>
-      <div className="md:flex space-y-10 md:space-y-0 md:space-x-20 text-xl">
-        <div className="w-80  border p-8 rounded-lg">
+      <div className="px-5 md:flex space-y-10 md:space-y-0 md:space-x-10 text-xl">
+        <div className="w-70  border p-8 rounded-lg">
           <div className="flex items-center space-x-2">
             <div>
               <Image
@@ -26,12 +26,12 @@ const SecondSection = () => {
             Seamlessly inject data from any source into DataMind for unified processing.
           </div>
         </div>
-        <div className="w-80 border p-8 rounded-lg">
+        <div className="w-70 border p-8 rounded-lg">
           <div className="flex items-center space-x-2">
             <div className="w-full">
               <Image
                 src="/images/icons/under-construction.gif"
-                width={600}
+                width={650}
                 height={250}
                 alt="Data Standardization Icon"
                 className="h-20 w-20"
@@ -42,7 +42,7 @@ const SecondSection = () => {
           </div>
           <div className="pt-4 pr-1">Standardize data according to industrial OTA schema for consistency.</div>
         </div>
-        <div className="w-80 border p-8 rounded-lg">
+        <div className="w-70 border p-8 rounded-lg">
           <div className="flex items-center space-x-2">
             <div>
               <Image
@@ -60,7 +60,7 @@ const SecondSection = () => {
             Implement 120+ data cleaning and validation rules to ensure high-quality data.
           </div>
         </div>
-        <div className="w-80 border p-8 rounded-lg">
+        <div className="w-70 border p-8 rounded-lg">
           <div className="flex items-center space-x-2">
             <div>
               <Image
