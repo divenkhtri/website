@@ -31,12 +31,12 @@ const FirstSection = () => {
           Industry Specific Business Intelligence and Gen AI Cloud Data Platform
         </p>
         <div className="flex gap-4 justify-center">
-        <Link href="/product">
+        <Link href="/contact">
           <button className="bg-[#000] text-white px-6 py-3 rounded-sm ">
             Get Started
           </button>
           </Link>
-          <Link href="/contact2">
+          <Link href="/product">
             <button className="bg-gray-500 text-white px-6 py-3 rounded-sm">
               See how it works
             </button>

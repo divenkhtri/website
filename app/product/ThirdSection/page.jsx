@@ -17,42 +17,67 @@ const options = [
     title: "Customer Analytics Dashboard",
     description:
       "Gain deep insights into customer behavior with 42 dashboards covering segments like Customer Preferences, Order History, Financial Interactions, Marketing Engagement, Transaction Trends, Payment Analytics, and Sales Performance. Understand your customers at a granular level to drive personalized strategies and enhance overall customer satisfaction.",
-    images: ["/images/dashboard/image1.png", "/images/dashboard/image2.png", "/images/dashboard/image3.png"],
+    images: [
+      "/images/dashboard/image1.png",
+      "/images/dashboard/image2.png",
+      "/images/dashboard/image3.png",
+    ],
   },
   {
     index: 1,
     title: "Order Management System",
     description:
       "Efficiently streamline order processes with our comprehensive Order Management System. Manage dependencies, ensure timely order fulfillment, and maintain a seamless workflow for your business. From order creation to delivery, our system provides end-to-end visibility and control.",
-    images: ["/images/tab-1.webp", "/images/tab-2.webp", "/images/tab-3.webp"],
+    images: [
+      "/images/dashboard/order.png",
+      "/images/dashboard/order2.png",
+      "/images/dashboard/order3.png",
+    ],
   },
   {
     index: 2,
     title: "Financial Analytics Dashboard",
     description:
       "Track and analyze financial data with real-time insights to optimize budgeting and financial planning. Our Financial Analytics Dashboard covers key areas such as Revenue Trends, Expense Management, Profitability Analysis, and Budget Performance. Make informed decisions to ensure the financial health of your business.",
-    images: ["/images/tab-1.webp", "/images/tab-2.webp", "/images/tab-3.webp"],
+    images: [
+      "/images/dashboard/fin.png",
+      "/images/dashboard/fin2.png",
+      "/images/dashboard/fin3.png",
+      "/images/dashboard/fin4.png",
+    ],
   },
   {
     index: 3,
     title: "Marketing Campaign Management",
     description:
       "Deliver impactful marketing strategies with our Campaign Management Dashboard. Plan and execute campaigns seamlessly, quickly refocus strategies based on real-time data, and automate approval processes. Gain a competitive edge by staying agile and responsive in the dynamic field of marketing.",
-    images: ["/images/tab-1.webp", "/images/tab-2.webp", "/images/tab-3.webp"],
+    images: [
+      "/images/dashboard/image1.png",
+      "/images/dashboard/image2.png",
+      "/images/dashboard/image3.png",
+    ],
   },
   {
     index: 4,
     title: "Transactions and Payments Tracking",
     description:
       "Efficiently track transactions and payments to ensure accurate and timely processing. Our system provides detailed insights into Transaction Histories, Payment Processing, Invoice Management, and Financial Transactions. Enhance operational efficiency and financial accuracy with robust tracking capabilities.",
-    images: ["/images/tab-1.webp", "/images/tab-2.webp", "/images/tab-3.webp"],
+    images: [
+      "/images/dashboard/image1.png",
+      "/images/dashboard/image2.png",
+      "/images/dashboard/image3.png",
+    ],
   },
   {
     index: 5,
     title: "Sales Performance Analytics",
     description:
       "Align teams to execute winning sales strategies with our Sales Performance Analytics. Set annual plans, monitor real-time insights into Sales Trends, Customer Interactions, Deal Progress, and Revenue Goals. Empower your sales teams with data-driven insights for effective decision-making and goal achievement.",
-    images: ["/images/tab-1.webp", "/images/tab-2.webp", "/images/tab-3.webp"],
+    images: [
+      "/images/dashboard/image1.png",
+      "/images/dashboard/image2.png",
+      "/images/dashboard/image3.png",
+    ],
   },
 ];
 
@@ -104,15 +129,16 @@ const ThirdSection = () => {
                 </AccordionTrigger>
                 <AccordionContent className="border-b border-blue-500">
                   <div className="md:flex items-center space-x-20">
-                    <div className="md:w-1/2 px-10">
+                    <div className="md:w-1/2 px-10 flex items-center">
                       <div className="text-xl pt-4">{option.description}</div>
                     </div>
-                    <div className="">
+                    <div className="flex items-center pb-2">
                       <Image
                         src={option.images[currentImageIndex]}
                         alt="Image"
                         width={500}
                         height={500}
+                        className="mx-auto" // Added mx-auto to center the image
                       />
                     </div>
                   </div>

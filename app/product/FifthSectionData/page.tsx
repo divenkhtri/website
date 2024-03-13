@@ -30,9 +30,11 @@ const DataQuality = () => {
           and advanced processing capabilities. Elevate your data quality,
           enabling it to be a valuable asset for data science and GenAI use.
         </div>
+        <Link href='/contact'>
         <div className="p-6 cursor-pointer w-40 rounded-xl text-xl bg-black hover:bg-gray-800 transition duration-300 ease-in-out">
           Get Started
         </div>
+        </Link>
       </div>
 
       <div className="bg-gradient-to-r from-[#292c2c] to-[#06dfbe] rounded-md flex p-2 overflow-hidden relative">

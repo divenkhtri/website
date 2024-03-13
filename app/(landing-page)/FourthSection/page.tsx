@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 import { motion, useAnimation } from "framer-motion";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const images = [
   {
@@ -140,10 +141,11 @@ const FourthSection = () => {
               </div>
             </div>
           </div>
-
+<Link href='/product'>
           <Button className="w-[10rem] p-[2rem] transition duration-300 ease-in-out transform hover:scale-105 hover:bg-gray-300">
             Explore All Features
           </Button>
+</Link>
         </div>
       </div>
     </div>
