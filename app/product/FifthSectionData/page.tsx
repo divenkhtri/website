@@ -19,7 +19,7 @@ const DataQuality = () => {
   }, [currentImageIndex]);
 
   return (
-    <div className="py-20 px-10 items-center justify-center md:flex">
+    <div className="py-20 bg-[#097969] text-white px-10 items-center justify-center md:flex">
       <div className="items-center md:w-1/2 pb-20 md:pb-0 space-y-6 justify-center">
         <div className="text-4xl flex">
           Empowering Industries to Enhance Data Quality
@@ -30,20 +30,20 @@ const DataQuality = () => {
           and advanced processing capabilities. Elevate your data quality,
           enabling it to be a valuable asset for data science and GenAI use.
         </div>
-        <div className="p-6 border w-40 rounded-xl text-xl">Get Started</div>
+        <div className="p-6 cursor-pointer w-40 rounded-xl text-xl bg-black hover:bg-gray-800 transition duration-300 ease-in-out">
+          Get Started
+        </div>
       </div>
 
-      <Link href="/pricing">
-        <div className="bg-gradient-to-r from-gray-300 to-gray-400 rounded-md flex p-2 overflow-hidden relative">
-          <Image
-            src={images[currentImageIndex]}
-            width={500}
-            height={700}
-            alt={`Data Platform Image ${currentImageIndex + 1}`}
-            className="h-[250px] w-[500px] transition-transform ease-in-out duration-500 transform hover:scale-105"
-          />
-        </div>
-      </Link>
+      <div className="bg-gradient-to-r from-[#292c2c] to-[#06dfbe] rounded-md flex p-2 overflow-hidden relative">
+        <Image
+          src={images[currentImageIndex]}
+          width={500}
+          height={700}
+          alt={`Data Platform Image ${currentImageIndex + 1}`}
+          className="h-[250px] w-[500px] transition-transform ease-in-out duration-500 transform hover:scale-105"
+        />
+      </div>
     </div>
   );
 };
