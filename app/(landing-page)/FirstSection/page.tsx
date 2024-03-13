@@ -31,10 +31,10 @@ const FirstSection = () => {
           Industry Specific Business Intelligence and Gen AI Cloud Data Platform
         </p>
         <div className="flex gap-4 justify-center">
-        <Link href="/contact">
-          <button className="bg-[#000] text-white px-6 py-3 rounded-sm ">
-            Get Started
-          </button>
+          <Link href="/contact">
+            <button className="bg-[#000] text-white px-6 py-3 rounded-sm ">
+              Get Started
+            </button>
           </Link>
           <Link href="/product">
             <button className="bg-gray-500 text-white px-6 py-3 rounded-sm">
@@ -50,11 +50,12 @@ const FirstSection = () => {
           animate={{ y: 0, opacity: 1 }}
           className="px-10 md:px-0"
         >
-          <Lottie
-            options={{ ...lottieOptions, animationData: data }}
-            height={700}
-            width="auto"
-          />
+          <Image 
+          src='/images/dashboard/hero.svg'
+          alt='data'
+          width={500}
+          height={500}
+          className='w-[800px] h-[800px] mt-[-10rem]'/>
         </motion.div>
       </div>
     </section>
